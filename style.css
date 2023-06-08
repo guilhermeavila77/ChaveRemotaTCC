@@ -1,0 +1,63 @@
+.placeholder {
+    width: 300px; /* Largura do espaço reservado */
+    height: 200px; /* Altura do espaço reservado */
+    background-color: lightgray; /* Cor de fundo do espaço reservado */
+}
+
+body {
+    background-color: #FCEECB; /* Cor de fundo claro */
+    color: #503E19; /* Cor das letras escuras */
+    font-family: "Georgia", serif; /* Fonte do texto */
+}
+
+/* Exemplo de estilo para um título */
+h1 {
+    color: #5E4727; /* Cor do título */
+    font-size: 36px; /* Tamanho do título */
+}
+
+/* Exemplo de estilo para um parágrafo */
+p {
+    font-size: 18px; /* Tamanho do parágrafo */
+    line-height: 1.5; /* Espaçamento entre linhas */
+}
+
+/* Exemplo de estilo para um link */
+a {
+    color: #503E19; /* Cor do link */
+    text-decoration: none; /* Remover sublinhado */
+}
+
+/* Exemplo de estilo para um link quando hover */
+a:hover {
+    color: #8C6C34; /* Cor do link ao passar o mouse */
+}
+
+footer {
+    background-color: #FCEECB; /* Cor de fundo do footer */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centralizar o conteúdo */
+}
+
+footer p {
+    margin-bottom: 10px; /* Espaçamento entre parágrafos */
+}
+
+footer .person {
+    display: inline-block; /* Exibir as pessoas na mesma linha */
+    margin-right: 20px; /* Espaçamento entre pessoas */
+}
+
+footer a {
+    color: #503E19; /* Cor do link */
+    text-decoration: none; /* Remover sublinhado */
+}
+
+footer a:hover {
+    color: #8C6C34; /* Cor do link ao passar o mouse */
+}
+
+footer .icons {
+    vertical-align: middle; /* Alinhar o ícone verticalmente */
+    margin-left: 5px; /* Espaçamento entre o nome e o ícone */
+}
