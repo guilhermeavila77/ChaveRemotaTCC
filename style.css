@@ -4,60 +4,76 @@
     background-color: lightgray; /* Cor de fundo do espaço reservado */
 }
 
-body {
-    background-color: #FCEECB; /* Cor de fundo claro */
-    color: #503E19; /* Cor das letras escuras */
-    font-family: "Georgia", serif; /* Fonte do texto */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
-/* Exemplo de estilo para um título */
-h1 {
-    color: #5E4727; /* Cor do título */
-    font-size: 36px; /* Tamanho do título */
+html, body{
+    height: 100%;
 }
 
-/* Exemplo de estilo para um parágrafo */
-p {
-    font-size: 18px; /* Tamanho do parágrafo */
-    line-height: 1.5; /* Espaçamento entre linhas */
+body{
+    background-color: #FFE6D6;
+    font-family: Arial, sans-serif;
 }
 
-/* Exemplo de estilo para um link */
-a {
-    color: #503E19; /* Cor do link */
-    text-decoration: none; /* Remover sublinhado */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    justify-content: space-between;
+    background-color: #613425;
+    color: #FFE6D6;
 }
 
-/* Exemplo de estilo para um link quando hover */
-a:hover {
-    color: #8C6C34; /* Cor do link ao passar o mouse */
+.opicoes{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
 }
 
-footer {
-    background-color: #FCEECB; /* Cor de fundo do footer */
-    padding: 20px; /* Espaçamento interno */
-    text-align: center; /* Centralizar o conteúdo */
+main{
+    display: flex;
+    flex-direction: column;
+    padding-top: 8rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 8rem;
+    gap: 4rem;
+    align-items: center;
+    color: #613425;
 }
 
-footer p {
-    margin-bottom: 10px; /* Espaçamento entre parágrafos */
+.resumo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    text-align: justify;
 }
 
-footer .person {
-    display: inline-block; /* Exibir as pessoas na mesma linha */
-    margin-right: 20px; /* Espaçamento entre pessoas */
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    justify-content:space-around;
+    background-color: #613425;
+    color: #FFE6D6;
+    padding: 1rem;
 }
 
-footer a {
-    color: #503E19; /* Cor do link */
-    text-decoration: none; /* Remover sublinhado */
+footer a{
+    color: #FFE6D6;
 }
 
-footer a:hover {
-    color: #8C6C34; /* Cor do link ao passar o mouse */
-}
-
-footer .icons {
-    vertical-align: middle; /* Alinhar o ícone verticalmente */
-    margin-left: 5px; /* Espaçamento entre o nome e o ícone */
-}
