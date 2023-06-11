@@ -57,6 +57,10 @@ main {
   color: #613425;
 }
 
+main p {
+  text-align: justify;
+}
+
 .resumo {
   display: flex;
   flex-direction: column;
