@@ -1,0 +1,23 @@
+body {
+  background-color: #dae3f3;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+h1 {
+  background-color: #203864;
+  border-radius: 1rem;
+  border-color: #c00000;
+  color: antiquewhite;
+  padding: 2rem;
+}
+
+button {
+  background-color: antiquewhite;
+  border-radius: 2rem;
+  border-color: #c00000;
+  color: black;
+  padding: 2rem;
+}
